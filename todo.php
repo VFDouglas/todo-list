@@ -27,14 +27,14 @@ if ($todoId) {
             <div class="col-3">
                 <h4>Title</h4>
                 <input type="hidden" id="todoid" value="<?= $data[0]['id'] ?? ''; ?>">
-                <input class="input_form" required maxlength="50" id="title" value="<?= $data[0]['title'] ?? ''; ?>">
+                <input class="input_form" required maxlength="100" id="title" value="<?= $data[0]['title'] ?? ''; ?>">
             </div>
         </div>
         <div class="row justify-content-center my-2">
             <div class="col-3">
                 <h4>Description</h4>
                 <textarea class="input_form" id="description" required
-                          maxlength="100"><?= $data[0]['description'] ?? ''; ?></textarea>
+                          maxlength="500"><?= $data[0]['description'] ?? ''; ?></textarea>
             </div>
         </div>
         <div class="row justify-content-center my-2">
