@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 4vh;
+    background-color: #0c5460;
+    display: grid;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+#div_todos {
+    margin-top: 1.5rem;
+}
+
+#btn_add_todo {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 0.35rem;
+    background-color: transparent;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.btn-blue {
+    background-color: #1d4b8f;
+    color: #fff;
+}
+
+.btn-green {
+    background-color: mediumseagreen;
+    color: #fff;
+}
+
+.btn-red {
+    background-color: indianred;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #1d4b8f;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-right: auto;
+    margin-left: auto
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: calc(-.5 * 1.5rem);
+    margin-left: calc(-.5 * 1.5rem)
+}
+
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-top: 0;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #000000;
+    border-radius: 0.375rem;
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: whitesmoke;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.mx-0 {
+    margin-right: 0 !important;
+    margin-left: 0 !important
+}
+
+.mx-1 {
+    margin-right: .25rem !important;
+    margin-left: .25rem !important
+}
+
+.mx-2 {
+    margin-right: .5rem !important;
+    margin-left: .5rem !important
+}
+
+.mx-3 {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important
+}
+
+.mx-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important
+}
+
+.mx-5 {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important
+}
+
+.my-2 {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.px-1 {
+    padding-right: .25rem !important;
+    padding-left: .25rem !important
+}
+
+.px-2 {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important
+}
+
+.px-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important
+}
+
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important
+}
+
+.remove_todo {
+    float: right;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.input_form {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+textarea {
+    resize: vertical;
+}
